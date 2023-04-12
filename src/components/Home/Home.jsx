@@ -9,8 +9,8 @@ const Home = () => {
         <div className='container'>
             <div className='banner'>
                 <div>
-                    <h3 class="banner-sub-title">One Step</h3>
-                    <h3 class="banner-title">Closer To Your <br /> Dream Job</h3>
+                    
+                    <h3 class="banner-title">One Step <br /> Closer To Your <br /> <span className='dream-job'>Dream Job</span></h3>
                     <p class="banner-description">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
                     <button className="button">Get Started</button>
                 </div>

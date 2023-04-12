@@ -12,8 +12,8 @@ const Feature = ({ alljob }) => {
                 <img src={img} alt="" />
                 <h4>{post}</h4>
                 <h6>{name}</h6>
-                <button>{category}</button>
-                <button>{jobtype}</button>
+                <button className='btn1'>{category}</button>
+                <button className='btn2'>{jobtype}</button>
                 <div className="info">
                     <div className="location-icon">
                         <FontAwesomeIcon icon={faMap} />
