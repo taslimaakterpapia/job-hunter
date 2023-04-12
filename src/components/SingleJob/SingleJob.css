@@ -1,0 +1,28 @@
+.flex{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 10px;
+}
+
+.single-job-container{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid lightcyan;
+}
+
+.heading{
+    text-align: center;
+}
+
+.job-details{
+    border: 1px solid lightgray;
+    background-color: bisque;
+    height: 350px;
+    width: 300px;
+}
+.job-details .button{
+    margin-top: 5px;
+    height: 30px;
+    width: 300px;
+}

@@ -1,0 +1,17 @@
+.feature-jobs{
+    text-align: center;
+}
+
+.feature-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto 150px ;
+    /* border: 1px solid lightblue; */
+}
+
+.button{
+    height: 35px;
+    width: 100px;
+    background-color: rgb(199, 110, 26);
+    color: aliceblue
+}

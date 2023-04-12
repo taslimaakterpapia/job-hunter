@@ -1,0 +1,12 @@
+.image-container{
+    height: 90px;
+    width: 80px;
+}
+.filter-container{
+    border: 1px solid lightblue;
+    margin-top: 10px;
+}
+.flex{
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,48 @@
+.title{
+    text-align: center;
+}
+.category-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .category-list {
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+    font-weight: 800;
+    font-size: 48px;
+    line-height: 66px;
+    color: #1A1919;
+}
+
+.category-desc {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #757575;
+    margin-top: -35px;
+}
+
+.category-container {
+    display: flex;
+    justify-content: center;
+    margin-left: 15px;
+} */

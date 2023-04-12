@@ -1,0 +1,23 @@
+[
+    {
+        "img": "https://img.freepik.com/free-vector/gradient-finance-logo-template_23-2148822743.jpg?w=2000",
+        "title": "Account & Finance",
+        "number": 300
+    },
+    {
+        "img": "https://img.freepik.com/premium-vector/abstract-bulb-logo-design-colorful-3d-style-icons_345408-623.jpg",
+        "title": "Creative Design",
+        "number": 30
+    },
+    {
+        "img": "https://vowels.ae/blog/wp-content/uploads/2022/07/digital-marketing-logo-design.jpg",
+        "title": "Marketing & Sales",
+        "number": 100
+    },
+    {
+        "img": "https://d1csarkz8obe9u.cloudfront.net/posterpreviews/logo-engenier-design-template-94b5d20c19e3185b5eef7a408eea4147.jpg?ts=1567176816",
+        "title": "Engineering Job",
+        "number": 200
+    }
+
+]
