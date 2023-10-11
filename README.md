@@ -1,4 +1,4 @@
-*https://admirable-alfajores-77d472.netlify.app/
+Live Link - https://job-hut-website.netlify.app/
 
 *job server portal
 
