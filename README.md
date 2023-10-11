@@ -19,8 +19,3 @@
 
 
 
-*job server portal
-
-*you can see here desire job 
-
-*you can apply here.
