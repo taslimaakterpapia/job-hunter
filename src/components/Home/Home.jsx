@@ -6,18 +6,20 @@ import FeatureJobs from '../FeatureJobs/FeatureJobs';
 
 const Home = () => {
     return (
-        <div className='container pt-2 mx-24'>
-            <div className='banner flex'>
-                <div className='pl-10' >
+        <div className='container pt-2 mx-16'>
 
-                    <h3 className="text-slate-700 text-8xl font-bold pb-6 pt-24">One Step <br /> Closer To Your <br /> 
+
+            <div className='banner flex'>
+                <div className='pl-4'>
+
+                    <h3 className="text-slate-700 text-6xl font-bold pb-6 pt-24">One Step <br /> Closer To Your <br /> 
 
                     <span className=' bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text'>Dream Job</span>
                     
                     </h3>
 
 
-                    <p class="banner-description text-2xl text-justify font-medium text-slate-600 pb-6">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
+                    <p class="banner-description text-xl text-justify font-medium text-slate-600 pb-6">Explore thousands of job opportunities with all the information you need. Its your future. Come find it. Manage all your job application from start to finish.</p>
 
 
                     <button className="bg-orange-700 text-orange-300 border border-orange-400 border-b-4 font-medium overflow-hidden relative px-6 py-4 rounded-md hover:brightness-150 hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
@@ -28,7 +30,7 @@ const Home = () => {
 
 
 
-                <img src={myimg} alt=""></img>
+                <img className='w-[600px]' src={myimg} alt=""></img>
             </div>
 
             <div >

@@ -10,13 +10,13 @@ const Filter = ({ data }) => {
         <div >
 
 
-            <div className='flex justify-between mx-52 border border-orange-600 rounded-md mb-5'>
+            <div className='flex justify-between mx-40 border border-orange-600 rounded-md mb-5'>
 
 
-                <div className='flex gap-12 text-xl  font-medium text-slate-600 mx-5 p-10'>
+                <div className='flex gap-8 text-xl  font-medium text-slate-600 mx-5 p-6 '>
 
 
-                    <img className='image-container w-[150px] border border-orange-600 rounded-md p-3' src={img} alt="" />
+                    <img className='image-container w-[150px] h-[150px] border border-orange-600 rounded-md p-2 py-4 mt-3' src={img} alt="" />
 
 
 
@@ -71,7 +71,7 @@ const Filter = ({ data }) => {
 
                
 
-                <Link to={`/jobs/${id}`} className='p-24'>
+                <Link to={`/jobs/${id}`} className='p-16 mt-4'>
                 <button className="bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 px-10 py-4 rounded-md text-white text-2xl">View Details</button>     
                 </Link>
 

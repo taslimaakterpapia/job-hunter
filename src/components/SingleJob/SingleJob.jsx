@@ -51,7 +51,7 @@ const SingleJob = () => {
 
 
 
-                <div className=' p-6 w-1/2 border-2 border-orange-600 mt-10 rounded-md'>
+                <div className=' p-6 w-[1200px] border-2 border-orange-600 mt-12 my-10 rounded-md'>
                     <div className='text-center'>
                         
                         <h3 className='bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text  font-semibold text-3xl pb-8 '>Job Details</h3>
@@ -106,9 +106,7 @@ const SingleJob = () => {
                     </div>
 
 
-                <div class="">
-                    
-                </div>
+                
 
 
             </div>

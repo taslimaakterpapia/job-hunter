@@ -6,7 +6,7 @@ const FilterJobs = (props) => {
      }
     return (
         <div className=''>
-            <div className='d-flex mx-52 me-5 p-5 text-3xl font-medium text-orange-600 py-10 mx-10'>
+            <div className='d-flex mx-52 me-10 p-5 text-xl font-medium text-orange-600 py-10 '>
             
             <select  onChange={onFilterValueChange} name="" id="">
                 <option value="All">All</option>

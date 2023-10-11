@@ -13,18 +13,18 @@ const FeatureJobs = () => {
             })
     }, [])
     return (
-        <div className='pt-40 '>
+        <div className='pt-24 '>
 
             <div className='text-center'>
-                <h1 className='text-6xl font-bold bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text pb-3
+                <h1 className='text-4xl font-bold bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text pb-3
                 '>Feature Jobs</h1>
-                <p className='text-2xl font-medium text-slate-600 pb-10'>Explore thousand of job opportunities with all information you need, it's your future</p>
+                <p className='text-xl font-medium text-slate-600 pb-10'>Explore thousand of job opportunities with all information you need, it's your future</p>
             </div>
 
 
 
 
-            <div className='grid grid-cols-2 '>
+            <div className='grid grid-cols-2  '>
                 {posts.slice(0, seeAll ? 6 : 4).map(alljob => <Feature
                     key={alljob.id}
                     alljob={alljob}

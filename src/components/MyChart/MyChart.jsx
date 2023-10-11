@@ -14,7 +14,7 @@ const MyChart = () => {
         .catch(error => console.error(error));
     }, []);
     return (
-        <div className=' ml-96'>
+        <div className=' ml-72'>
             <Chart data={data}></Chart>
         </div>
     );
