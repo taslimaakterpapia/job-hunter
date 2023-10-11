@@ -16,10 +16,11 @@ const Chart = ({ data }) => {
     const { name, value } = data;
     return (
         <div>
-            {/* <ComposedChart width={600} height={300} data={data} >
+            <ComposedChart width={200} height={100} data={data} >
                 <XAxis dataKey={name}></XAxis>
                 <Line dataKey={value}></Line>
-            </ComposedChart> */}
+            </ComposedChart>
+
             <ComposedChart
                 width={700}
                 height={400}

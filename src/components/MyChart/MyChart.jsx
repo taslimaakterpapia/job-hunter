@@ -14,10 +14,7 @@ const MyChart = () => {
         .catch(error => console.error(error));
     }, []);
     return (
-        <div className='chart'>
-            {/* {data.map(dt=><Chart
-            dt={dt}
-            ></Chart>)} */}
+        <div className=' ml-96'>
             <Chart data={data}></Chart>
         </div>
     );

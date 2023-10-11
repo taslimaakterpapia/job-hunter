@@ -39,7 +39,9 @@ const Apply = () => {
     })
     return (
         <div>
-            <h1 className='text-center m-5'>Applied Jobs</h1>
+            <div className='text-center pt-5'>
+            <h1 className=' m-5 text-6xl font-bold bg-gradient-to-r from-orange-800 via-orange-500 to-orange-400 inline-block text-transparent bg-clip-text pb-3'>Applied Jobs</h1>
+            </div>
             <FilterJobs filterValueSelected={onFilteredData}></FilterJobs>
             <div className='mt-3 data'>
                 {filterjobs.map(data => <Filter data={data}></Filter>)}
