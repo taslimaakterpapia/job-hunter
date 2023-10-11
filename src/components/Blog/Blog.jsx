@@ -7,8 +7,8 @@ const Blog = () => {
            <div className='border border-amber-600  rounded-md p-10'>
 
            <div className='div py-5 bg-orange-200 rounded-md p-4 mb-2'>
-            <h3 className='font-bold'><strong>Qus:</strong> What is context API?? When should I used context API?? </h3>
-            <h4><strong>Ans:</strong> Context Api: The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.
+            <h3 className='font-bold'><strong>Qus: </strong> What is context API?? When should I used context API?? </h3>
+            <h4><strong>Ans: </strong> Context Api: The Context API is a React structure that enables you to exchange unique details and assists in solving prop-drilling from all levels of your application.
             
             Context is primarily used when some data needs to be accessible by many components at different nesting levels. 
             </h4>
